@@ -2,7 +2,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.yourapp",
-      "sha256_cert_fingerprints": ["YOUR_APP_FINGERPRINT"]
+      "package_name": "com.xenea.wallet.dev",
+      "sha256_cert_fingerprints": ["54:52:1E:AF:AE:7A:92:AA:E1:02:E7:1B:F8:9D:D7:E0:5A:4C:63:5B:33:5A:48:7A:32:75:D6:E3:94:29:32:DC"]
     }
   }]

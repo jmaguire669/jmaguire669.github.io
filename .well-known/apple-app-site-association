@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "TEAM_ID.BUNDLE_ID",
-        "paths": ["/product/*"]
+        "appID": "FYF674UQX3",
+        "paths": ["/details/*"]
       }
     ]
   }
