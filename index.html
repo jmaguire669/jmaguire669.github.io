@@ -1,11 +1,58 @@
-<!DOCTYPE html>
-<html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>App Deep Links</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function getMobileOperatingSystem() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            return "unknown";
+        }
+    </script>
+
+    <script>
+        function DetectAndServe() {
+            let os = getMobileOperatingSystem();
+            if (os == "Android") {
+                window.location.href = "https://play.google.com/store/games?hl=en&gl=US&pli=1";
+            } else if (os == "iOS") {
+                window.location.href = "https://www.apple.com/vn/";
+            } else {
+                window.location.href = "https://www.google.com";
+            }
+        }
+    </script>
+
 </head>
-<body>
-    <h1>Deep Link Test Page</h1>
-    <p>This page hosts deep link verification files for my Flutter app.</p>
-    <p><a href="https://deeplink.github.io/details">Test Deep Link</a></p>
+
+<body onload="DetectAndServe()">
+    Hello
 </body>
-</html>
+
+<!-- <body>
+    <button onclick="DetectAndServe()" id="btn">CLICK ME</button>
+
+    Hello
+
+    <script>
+        const button = document.getElementById("btn");
+        button.click();
+
+
+    </script>
+</body> -->
+ 
