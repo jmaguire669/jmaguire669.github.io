@@ -1,11 +1,13 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "FYF674UQX3",
-        "paths": ["/details/*"]
-      }
-    ]
+    "applinks": {
+      "apps": [],
+      "details": [
+        {
+          "appID": "FYF674UQX3.com.xenea.wallet.dev",
+          "paths": [
+            "*"
+          ]
+        }
+      ]
+    }
   }
-}
