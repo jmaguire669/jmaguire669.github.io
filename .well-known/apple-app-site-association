@@ -1,13 +1,25 @@
 {
-    "applinks": {
-      "apps": [],
-      "details": [
-        {
-          "appID": "FYF674UQX3.com.xenea.wallet.dev",
-          "paths": [
-            "*"
-          ]
-        }
-      ]
-    }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "FYF674UQX3.com.xeneawallet.app.dev"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "FYF674UQX3.com.xeneawallet.app.dev"
+    ]
   }
+}
