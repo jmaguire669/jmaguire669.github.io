@@ -4,7 +4,8 @@
     "details": [
       {
         "appIDs": [
-          "FYF674UQX3.com.xeneawallet.app.dev"
+          "FYF674UQX3.com.xeneawallet.app",
+          "FYF674UQX3.com.xeneawallet.app.stg"
         ],
         "paths": [
           "*"
@@ -19,7 +20,8 @@
   },
   "webcredentials": {
     "apps": [
-      "FYF674UQX3.com.xeneawallet.app.dev"
+      "FYF674UQX3.com.xeneawallet.app.dev",
+      "FYF674UQX3.com.xeneawallet.app.stg"
     ]
   }
 }
