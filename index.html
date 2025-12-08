@@ -4,7 +4,7 @@
     <title>Opening App...</title>
     <script>
         // Try to open the app
-        window.location = "basalpaymobile://open?param=value";
+        window.location = "basalpay://auth?client_id=com.example.app&app_name=Example%20App&app_icon_url=https://example.com/icon.png&redirect_uri=https://example.com/callback&permissions=read_balance,transfer_funds&state=abc123&nonce=nonce456";
         
         // Fallback to app store after delay
         setTimeout(function() {
