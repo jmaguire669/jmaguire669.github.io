@@ -5,21 +5,9 @@
       ],
       "target": {
         "namespace": "android_app",
-        "package_name": "com.xenea.wallet.dev",
+        "package_name": "com.basalpay.app",
         "sha256_cert_fingerprints": [
-          "54:52:1E:AF:AE:7A:92:AA:E1:02:E7:1B:F8:9D:D7:E0:5A:4C:63:5B:33:5A:48:7A:32:75:D6:E3:94:29:32:DC"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.xenea.wallet",
-        "sha256_cert_fingerprints": [
-          "17:21:2E:C5:3A:13:B8:C2:83:A7:0B:B7:68:98:DE:3F:C1:D0:A2:F2:1B:44:22:0A:0B:24:86:03:7A:C6:3E:FC"
+          "1E:46:95:31:DA:67:26:5B:00:D8:FB:07:F6:52:57:83:F3:00:33:8F:FE:79:9E:13:80:27:4D:27:DE:02:60:F1"
         ]
       }
     }
