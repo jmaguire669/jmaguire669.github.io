@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>App Deep Links</title>
+    <title>Opening App...</title>
+    <script>
+        // Try to open the app
+        window.location = "myapp://open?param=value";
+        
+        // Fallback to app store after delay
+        setTimeout(function() {
+            var userAgent = navigator.userAgent || navigator.vendor;
+            
+            if (/android/i.test(userAgent)) {
+                window.location = "https://play.google.com/store/apps/details?id=com.xenea.wallet";
+            } else if (/iPad|iPhone|iPod/.test(userAgent)) {
+                window.location = "https://apps.apple.com/app/idYOUR_APP_ID";
+            }
+        }, 1500);
+    </script>
 </head>
 <body>
-    <h1>Deep Link Test Page</h1>
-    <p>This page hosts deep link verification files for my Flutter app.</p>
-    <a href="xenea://wc?uri=wc:4c34fa72f5ce7d59569faafcb7bce530df45f9df99885cf2d5e6c11dba0094c8@2?relay-protocol=irn&symKey=fac31629b325e9e35692e72a2e4e84969b11607e466b9ecb26ee37c137d1fbef&expiryTimestamp=1744618356">Test Deep Link</a>
-    <button onclick="window.location.href='https://jmaguire669.github.io/'">Open App (JS)</button>
-    <a href="https://jmaguire669.github.io/">Test Deep Link</a>
+    <p>Opening app...</p>
 </body>
 </html>
